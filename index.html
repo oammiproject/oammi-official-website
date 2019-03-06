@@ -38,13 +38,14 @@
   }
   </style>
   <link rel="stylesheet" href="stylesheets/main.css" type="text/css">
-  <script src="scripts/output.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="scripts/output.js"></script>
+  <script src="scripts/effect.js"></script>
 </head>
 
 <body>
   <header id="header" class="header animate-area">
-    <a href="http://oammi.cn" class="logo scroll"><img src="assets/images/logo.svg" alt="OAMMI PROJECT LOGO" class="svg"></a>
+    <a href="/" class="logo scroll"><img src="assets/images/logo.svg" alt="OAMMI PROJECT LOGO" class="svg"></a>
     <input type="checkbox" id="openSideMenu" class="openSideMenu">
     <label for="openSideMenu" class="menuIconToggle mobile-only">
       <div class="hamb-line dia p-1"></div>
@@ -85,7 +86,7 @@
         </div>
       </section>
       <section id="brand-info" class="brand-info">
-        <div class="cover one-plus image-right">
+        <div class="cover one-plus image-right card-image" style="background-image: url(assets/image/small/new-gens.jpg);" data-image-full="assets/images/new-gens.jpg">
           <img src="assets/images/new-gens.jpg" alt="new gens" class>
         </div>
         <div class="big-margin-top big-margin-bottom wrapper">
@@ -98,129 +99,195 @@
         <div class="big-margin-top big-margin-bottom">
           <div class="wrapper">
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/01-graffiti-hand.png" alt="Graffiti Hand">
+              <a href="https://item.taobao.com/item.htm?spm=2013.1.0.0.38a83d60x3hPP3&id=586857193581&scm=1007.12144.95220.42296_0&pvid=54b509d4-6bac-4183-9032-b24deef7f693&utparam=%7B%22x_hestia_source%22%3A%2242296%22%2C%22x_object_type%22%3A%22item%22%2C%22x_mt%22%3A0%2C%22x_src%22%3A%2242296%22%2C%22x_pos%22%3A1%2C%22x_pvid%22%3A%2254b509d4-6bac-4183-9032-b24deef7f693%22%2C%22x_object_id%22%3A586857193581%7D" 
+                target="_blank" 
+                class="card-image" 
+                style="background-image: url(assets/image/small/01-graffiti-hand.png);" 
+                data-image-full="assets/images/01-graffiti-hand.png">
+                <img class="lookbook__img" src="assets/images/01-graffiti-hand.png" alt="Graffiti Hand">
+              </a>
               <p class="lookbook__name">Short Sleeve Tee 008 "Graffiti Hand"</p>
               <p class="lookbook__caption">Comes in Black / White</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/02-spatial-letter.png" alt="Spatial Letter">
+              <a href="#"  
+                target="_blank" 
+                class="card-image" 
+                style="background-image: url(assets/image/small/02-spatial-letter.png);" 
+                data-image-full="assets/images/02-spatial-letter.png">
+                <img class="lookbook__img" src="assets/images/02-spatial-letter.png" alt="Spatial Letter">
+              </a>
               <p class="lookbook__name">Short Sleeve Tee 010 "Spatial Letter"</p>
               <p class="lookbook__caption">Comes in Black / Acid Green</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/03-live-house.png" alt="Live House">
+              <a href="https://item.taobao.com/item.htm?spm=a230r.1.14.8.6cae7dd4xghlU7&id=586984490909&ns=1&abbucket=14#detail" 
+                target="_blank" 
+                class="card-image" 
+                style="background-image: url(assets/image/small/03-live-house.png);" 
+                data-image-full="assets/images/03-live-house.png">
+                <img class="lookbook__img" src="assets/images/03-live-house.png" alt="Live House">
+              </a>
               <p class="lookbook__name">Short Sleeve Tee 001 "Live House"</p>
               <p class="lookbook__caption">Comes in Black / Blue</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/04-releasing-pill.png" alt="Releasing Pill">
+              <a href="https://item.taobao.com/item.htm?spm=2013.1.0.0.74436f98Mw5Rou&id=586986186136&scm=1007.12144.95220.42296_0&pvid=81e208cf-00b2-4fa6-8858-772e2dc9a8f9&utparam=%7B%22x_hestia_source%22%3A%2242296%22%2C%22x_object_type%22%3A%22item%22%2C%22x_mt%22%3A0%2C%22x_src%22%3A%2242296%22%2C%22x_pos%22%3A2%2C%22x_pvid%22%3A%2281e208cf-00b2-4fa6-8858-772e2dc9a8f9%22%2C%22x_object_id%22%3A586986186136%7D" 
+                target="_blank" 
+                class="card-image" 
+                style="background-image: url(assets/image/small/04-releasing-pill.png);" 
+                data-image-full="assets/images/04-releasing-pill.png">
+                <img class="lookbook__img" src="assets/images/04-releasing-pill.png" alt="Releasing Pill">
+              </a>
               <p class="lookbook__name">Long Sleeve Tee 002 "Releasing Pill"</p>
               <p class="lookbook__caption">Comes in Blue / White / Purple</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/05-blury-letter.png" alt="Blury Letter">
+              <img class="lookbook__img" src="assets/images/05-blury-letter.png" alt="Blury Letter">
               <p class="lookbook__name">Short Sleeve Tee 003 "Blury Letter"</p>
               <p class="lookbook__caption">Comes in Black / White / Purple</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/06-CCTV.png" alt="CCTV">
+              <a href="https://item.taobao.com/item.htm?spm=a230r.1.14.45.6cae7dd4xghlU7&id=586986582653&ns=1&abbucket=14#detail" 
+                target="_blank" 
+                class="card-image" 
+                style="background-image: url(assets/image/small/06-CCTV.png);" 
+                data-image-full="assets/images/06-CCTV.png">
+                <img class="lookbook__img" src="assets/images/06-CCTV.png" alt="CCTV">
+              </a>
               <p class="lookbook__name">Short Sleeve Tee 004 "CCTV"</p>
               <p class="lookbook__caption">Comes in Black / Blue</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/07-barbed-wire.png" alt="Barbed Wire">
+              <a href="https://item.taobao.com/item.htm?spm=2013.1.0.0.74436f98Mw5Rou&id=587140727854&scm=1007.12144.95220.42296_0&pvid=81e208cf-00b2-4fa6-8858-772e2dc9a8f9&utparam=%7B%22x_hestia_source%22%3A%2242296%22%2C%22x_object_type%22%3A%22item%22%2C%22x_mt%22%3A0%2C%22x_src%22%3A%2242296%22%2C%22x_pos%22%3A3%2C%22x_pvid%22%3A%2281e208cf-00b2-4fa6-8858-772e2dc9a8f9%22%2C%22x_object_id%22%3A587140727854%7D" 
+                target="_blank" 
+                class="card-image" 
+                style="background-image: url(assets/image/small/07-barbed-wire.png);" 
+                data-image-full="assets/images/07-barbed-wire.png">
+                <img class="lookbook__img" src="assets/images/07-barbed-wire.png" alt="Barbed Wire">
+              </a>
               <p class="lookbook__name">Short Sleeve Tee 005 "Barbed Wire"</p>
               <p class="lookbook__caption">Comes in Black / White / Blue</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/08-astronaut-project.png" alt="Astronaut Project">
+              <a href="https://item.taobao.com/item.htm?spm=a230r.1.14.39.6cae7dd4xghlU7&id=586852989085&ns=1&abbucket=14#detail" 
+                target="_blank" 
+                class="card-image" 
+                style="background-image: url(assets/image/small/08-astronaut-project.png);" 
+                data-image-full="assets/images/08-astronaut-project.png">
+                <img class="lookbook__img" src="assets/images/08-astronaut-project.png" alt="Astronaut Project">
+              </a>
               <p class="lookbook__name">Short Sleeve Tee 006 "Astronaut Project"</p>
               <p class="lookbook__caption">Comes in Black / White / Purple</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/09-with-vibration.png" alt="With Vibration">
+              <a href="https://item.taobao.com/item.htm?spm=a230r.1.14.32.6cae7dd4xghlU7&id=586638760100&ns=1&abbucket=14#detail" 
+                target="_blank" 
+                class="card-image" 
+                style="background-image: url(assets/image/small/09-with-vibration.png);" 
+                data-image-full="assets/images/09-with-vibration.png">
+                <img class="lookbook__img" src="assets/images/09-with-vibration.png" alt="With Vibration">
+              </a>
               <p class="lookbook__name">Short Sleeve Tee 007 "With Vibration"</p>
               <p class="lookbook__caption">Comes in Black / Blue</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/10-fire-logo.png" alt="Fire Logo">
+              <img class="lookbook__img" src="assets/images/10-fire-logo.png" alt="Fire Logo">
               <p class="lookbook__name">Short Sleeve Tee 009 "Fire Logo"</p>
               <p class="lookbook__caption">Comes in Black / White / Acid Green</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/11-necklace.png" alt="Necklace">
+              <img class="lookbook__img" src="assets/images/11-necklace.png" alt="Necklace">
               <p class="lookbook__name">Short Sleeve Tee 011 "Necklace"</p>
               <p class="lookbook__caption">Comes in Black / White / Purple</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/12-roatating-letter.png" alt="Roatating Letter">
-              <p class="lookbook__name"> Short Sleeve Tee 012 "Roatating Letter"</p>
+              <a href="https://item.taobao.com/item.htm?spm=2013.1.0.0.719910feLEQWnh&id=587147379263&scm=1007.12144.95220.42296_0&pvid=5edde01c-899d-476b-a07b-8b65cf9a4072&utparam=%7B%22x_hestia_source%22%3A%2242296%22%2C%22x_object_type%22%3A%22item%22%2C%22x_mt%22%3A0%2C%22x_src%22%3A%2242296%22%2C%22x_pos%22%3A3%2C%22x_pvid%22%3A%225edde01c-899d-476b-a07b-8b65cf9a4072%22%2C%22x_object_id%22%3A587147379263%7D" 
+                target="_blank" 
+                class="card-image" 
+                style="background-image: url(assets/image/small/12-rotating-letter.png);" 
+                data-image-full="assets/images/12-rotating-letter.png">
+                <img class="lookbook__img" src="assets/images/12-rotating-letter.png" alt="Rotating Letter">
+              </a>
+              <p class="lookbook__name"> Short Sleeve Tee 012 "Rotating Letter"</p>
               <p class="lookbook__caption">Comes in Black</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/13-melting-letter.png" alt="Melting Letter">
+              <a href="https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-21167927941.98.10cb50f3mAcUxf&id=586858621807" 
+                target="_blank" 
+                class="card-image" 
+                style="background-image: url(assets/image/small/13-melting-letter.png);" 
+                data-image-full="assets/images/13-melting-letter.png">
+                <img class="lookbook__img" src="assets/images/13-melting-letter.png" alt="Melting Letter">
+              </a>
               <p class="lookbook__name">Short Sleeve Tee 013 "Melting Letter"</p>
               <p class="lookbook__caption">Comes in Black / Purple</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/14-ie-browser.png" alt="IE Browser">
+              <a href="https://item.taobao.com/item.htm?spm=2013.1.0.0.74436f98Mw5Rou&id=587147827792&scm=1007.12144.95220.42296_0&pvid=81e208cf-00b2-4fa6-8858-772e2dc9a8f9&utparam=%7B%22x_hestia_source%22%3A%2242296%22%2C%22x_object_type%22%3A%22item%22%2C%22x_mt%22%3A0%2C%22x_src%22%3A%2242296%22%2C%22x_pos%22%3A1%2C%22x_pvid%22%3A%2281e208cf-00b2-4fa6-8858-772e2dc9a8f9%22%2C%22x_object_id%22%3A587147827792%7D" 
+                target="_blank" 
+                class="card-image" 
+                style="background-image: url(assets/image/small/14-ie-browser.png);" 
+                data-image-full="assets/images/14-ie-browser.png">
+                <img class="lookbook__img" src="assets/images/14-ie-browser.png" alt="IE Browser">
+              </a>
               <p class="lookbook__name">Long Sleeve Tee 014 "IE Browser"</p>
               <p class="lookbook__caption">Comes in Black / White</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/15-melting-letter-cap.png" alt="Melting Letter Cap">
+              <img class="lookbook__img" src="assets/images/15-melting-letter-cap.png" alt="Melting Letter Cap">
               <p class="lookbook__name">Melting Letter Cap</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/16-sacoche.png" alt="OAMMI PROJECT sacoche">
+              <img class="lookbook__img" src="assets/images/16-sacoche.png" alt="OAMMI PROJECT sacoche">
               <p class="lookbook__name">OAMMI PROJECT sacoche</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/17-barbed-wire-necklace.png" alt="Barbed Wire Necklace">
+              <img class="lookbook__img" src="assets/images/17-barbed-wire-necklace.png" alt="Barbed Wire Necklace">
               <p class="lookbook__name">Barbed Wire Necklace</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/18-barbed-wire-socks.png" alt="Barbed Wire Socks">
+              <img class="lookbook__img" src="assets/images/18-barbed-wire-socks.png" alt="Barbed Wire Socks">
               <p class="lookbook__name">Barbed Wire Socks</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/19-melting-letter-canvas-bag.png" alt="Melting Letter Canvas Bag">
+              <img class="lookbook__img" src="assets/images/19-melting-letter-canvas-bag.png" alt="Melting Letter Canvas Bag">
               <p class="lookbook__name">Melting Letter Canvas Bag</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/20-ribbon-globe-necklace.png" alt="Ribbon Globe Necklace">
+              <img class="lookbook__img" src="assets/images/20-ribbon-globe-necklace.png" alt="Ribbon Globe Necklace">
               <p class="lookbook__name">Ribbon Globe Necklace</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/21-new-gens-razor-necklace.png" alt="NEW GENS Razor Necklace">
+              <img class="lookbook__img" src="assets/images/21-new-gens-razor-necklace.png" alt="NEW GENS Razor Necklace">
               <p class="lookbook__name">NEW GENS Razor Necklace</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/22-oammi-project-nanny-bag.png" alt="OAMMI PROJECT Nanny Bag">
+              <img class="lookbook__img" src="assets/images/22-oammi-project-nanny-bag.png" alt="OAMMI PROJECT Nanny Bag">
               <p class="lookbook__name">OAMMI PROJECT Nanny Bag</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/23-explosion-cap.png" alt="Explosion Cap">
+              <img class="lookbook__img" src="assets/images/23-explosion-cap.png" alt="Explosion Cap">
               <p class="lookbook__name">Explosion Cap</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/24-hand-writting-letter-socks.png" alt="Hand Writting Letter Socks">
+              <img class="lookbook__img" src="assets/images/24-hand-writting-letter-socks.png" alt="Hand Writting Letter Socks">
               <p class="lookbook__name">Hand Writting Letter Socks</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/25-sd-card-necklace.png" alt="SD Card Necklace">
+              <img class="lookbook__img" src="assets/images/25-sd-card-necklace.png" alt="SD Card Necklace">
               <p class="lookbook__name">SD Card Necklace</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/26-new-gens-ribbon-cap.png" alt="New Gens Ribbon Cap">
+              <img class="lookbook__img" src="assets/images/26-new-gens-ribbon-cap.png" alt="New Gens Ribbon Cap">
               <p class="lookbook__name">New Gens Ribbon Cap</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/27-barbed-wire-iphone-case.png" alt="Barbed Wire iPhone case">
+              <img class="lookbook__img" src="assets/images/27-barbed-wire-iphone-case.png" alt="Barbed Wire iPhone case">
               <p class="lookbook__name">Barbed Wire iPhone case</p>
             </div>
             <div class="lookbook english">
-              <img class="lookbook__img llazy" data-loaded="false" src="https://dummyimage.com/750x500/E0E0E0/424242" data-src="assets/images/28-iso-standard-globe-iphone-case.png" alt="ISO standard globe iPhone case">
+              <img class="lookbook__img" src="assets/images/28-iso-standard-globe-iphone-case.png" alt="ISO standard globe iPhone case">
               <p class="lookbook__name">ISO standard globe iPhone case</p>
             </div>
           </div>
@@ -253,209 +320,6 @@
       </footer>
     </div>
   </section>
-  <script>
-    $(document).ready(function(){
-      // Add smooth scrolling to all links
-      $(".scroll").on('click', function(event) {
-
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
-
-          // Store hash
-          var hash = this.hash;
-
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 1000, function(){
-
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
-    });
-    (function($) {
-
-    var self = this,
-      container, running = false,
-      currentY = 0,
-      targetY = 0,
-      oldY = 0,
-      maxScrollTop = 0,
-      minScrollTop, direction, onRenderCallback = null,
-      fricton = 0.85,
-      vy = 0,
-      stepAmt = 1,
-      minMovement = 0.1,
-      ts = 0.1;
-
-    var updateScrollTarget = function(amt) {
-      targetY += amt;
-      vy += (targetY - oldY) * stepAmt;
-
-      oldY = targetY;
-    }
-    var render = function() {
-      if (vy < -(minMovement) || vy > minMovement) {
-
-        currentY = (currentY + vy);
-        if (currentY > maxScrollTop) {
-          currentY = vy = 0;
-        } else if (currentY < minScrollTop) {
-          vy = 0;
-          currentY = minScrollTop;
-        }
-
-        container.scrollTop(-currentY);
-
-        vy *= fricton;
-
-        if (onRenderCallback) {
-          onRenderCallback();
-        }
-      }
-    }
-    var animateLoop = function() {
-      if (!running) return;
-      requestAnimFrame(animateLoop);
-      render();
-      //log("45","animateLoop","animateLoop", "",stop);
-    }
-    var onWheel = function(e) {
-      e.preventDefault();
-      var evt = e.originalEvent;
-
-      var delta = evt.detail ? evt.detail * -1 : evt.wheelDelta / 40;
-      var dir = delta < 0 ? -1 : 1;
-      if (dir != direction) {
-        vy = 0;
-        direction = dir;
-      }
-
-      //reset currentY in case non-wheel scroll has occurred (scrollbar drag, etc.)
-      currentY = -container.scrollTop();
-      updateScrollTarget(delta);
-    }
-
-    /*
-    * http://paulirish.com/2011/requestanimationframe-for-smart-animating/
-    */
-    window.requestAnimFrame = (function() {
-      return window.requestAnimationFrame ||
-        window.webkitRequestAnimationFrame ||
-        window.mozRequestAnimationFrame ||
-        window.oRequestAnimationFrame ||
-        window.msRequestAnimationFrame ||
-        function(callback) {
-          window.setTimeout(callback, 1000 / 60);
-        };
-    })();
-
-    /*
-    * http://jsbin.com/iqafek/2/edit
-    */
-    var normalizeWheelDelta = function() {
-      // Keep a distribution of observed values, and scale by the
-      // 33rd percentile.
-      var distribution = [],
-        done = null,
-        scale = 30;
-      return function(n) {
-        // Zeroes don't count.
-        if (n == 0) return n;
-        // After 500 samples, we stop sampling and keep current factor.
-        if (done != null) return n * done;
-        var abs = Math.abs(n);
-        // Insert value (sorted in ascending order).
-        outer: do { // Just used for break goto
-          for (var i = 0; i < distribution.length; ++i) {
-            if (abs <= distribution[i]) {
-              distribution.splice(i, 0, abs);
-              break outer;
-            }
-          }
-          distribution.push(abs);
-        } while (false);
-        // Factor is scale divided by 33rd percentile.
-        var factor = scale / distribution[Math.floor(distribution.length / 3)];
-        if (distribution.length == 500) done = factor;
-        return n * factor;
-      };
-    }();
-
-
-    $.fn.smoothWheel = function() {
-      //  var args = [].splice.call(arguments, 0);
-      var options = jQuery.extend({}, arguments[0]);
-      return this.each(function(index, elm) {
-
-        if (!('ontouchstart' in window)) {
-          container = $(this);
-          container.bind("mousewheel", onWheel);
-          container.bind("DOMMouseScroll", onWheel);
-
-          //set target/old/current Y to match current scroll position to prevent jump to top of container
-          targetY = oldY = container.scrollTop();
-          currentY = -targetY;
-
-          minScrollTop = container.get(0).clientHeight - container.get(0).scrollHeight;
-          if (options.onRender) {
-            onRenderCallback = options.onRender;
-          }
-          if (options.remove) {
-            log("122", "smoothWheel", "remove", "");
-            running = false;
-            container.unbind("mousewheel", onWheel);
-            container.unbind("DOMMouseScroll", onWheel);
-          } else if (!running) {
-            running = true;
-            animateLoop();
-          }
-
-        }
-      });
-    };
-    })(jQuery);
-
-    $(document).ready(function(){
-    $(window).smoothWheel();
-    });
-
-    // lazyload
-    jQuery.noConflict();
-    window.addEventListener("scroll", function() {
-        jQuery('.llazy[data-loaded="false"]').each(function() {
-            var llazy = jQuery(this);
-            if (llazy[0].getBoundingClientRect().top - window.innerHeight < 0) {
-                jQuery(this).attr("data-loaded", "true");
-                jQuery(this).attr("src", jQuery(this).attr("data-src"));
-            }
-        });
-    });
-
-    const animateArea = document.querySelectorAll(".animate-area");
-
-    // animation
-    observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.intersectionRatio > 0) {
-          entry.target.classList.add("fade");
-        } else {
-          entry.target.classList.remove("fade");
-        }
-      });
-    });
-
-    animateArea.forEach(item => {
-      observer.observe(item);
-    });
-
-
-  </script>
 </body>
 
 </html>
