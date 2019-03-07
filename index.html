@@ -14,7 +14,8 @@
   };
   (function() {
     var wf = document.createElement('script');
-    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    // wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.src = 'scripts/webfont.js';
     wf.type = 'text/javascript';
     wf.async = 'true';
     var s = document.getElementsByTagName('script')[0];
@@ -22,23 +23,24 @@
   })();
   </script>
   <style>
-  .wf-loading {
-    /* styles for fallback fonts */
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
+    .wf-loading {
+      /* styles for fallback fonts */
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
 
-  .wf-active {
-    /* styles for custom fonts */
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
+    .wf-active {
+      /* styles for custom fonts */
+      font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
 
-  .wf-inactive {
-    /* use fallback fonts */
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
+    .wf-inactive {
+      /* use fallback fonts */
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
   </style>
+  <!-- <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+SC:400,700" rel="stylesheet"> -->
   <link rel="stylesheet" href="stylesheets/main.css" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="scripts/jquery.min.js"></script>
   <script src="scripts/output.js"></script>
   <script src="scripts/effect.js"></script>
 </head>
@@ -102,7 +104,7 @@
               <a href="https://item.taobao.com/item.htm?spm=2013.1.0.0.38a83d60x3hPP3&id=586857193581&scm=1007.12144.95220.42296_0&pvid=54b509d4-6bac-4183-9032-b24deef7f693&utparam=%7B%22x_hestia_source%22%3A%2242296%22%2C%22x_object_type%22%3A%22item%22%2C%22x_mt%22%3A0%2C%22x_src%22%3A%2242296%22%2C%22x_pos%22%3A1%2C%22x_pvid%22%3A%2254b509d4-6bac-4183-9032-b24deef7f693%22%2C%22x_object_id%22%3A586857193581%7D" 
                 target="_blank" 
                 class="card-image" 
-                style="background-image: url(assets/image/small/01-graffiti-hand.png);" 
+                style="background-image: url(assets/images/small/01-graffiti-hand.png);" 
                 data-image-full="assets/images/01-graffiti-hand.png">
                 <img class="lookbook__img" src="assets/images/01-graffiti-hand.png" alt="Graffiti Hand">
               </a>
@@ -113,7 +115,7 @@
               <a href="#"  
                 target="_blank" 
                 class="card-image" 
-                style="background-image: url(assets/image/small/02-spatial-letter.png);" 
+                style="background-image: url(assets/images/small/02-spatial-letter.png);" 
                 data-image-full="assets/images/02-spatial-letter.png">
                 <img class="lookbook__img" src="assets/images/02-spatial-letter.png" alt="Spatial Letter">
               </a>
@@ -124,7 +126,7 @@
               <a href="https://item.taobao.com/item.htm?spm=a230r.1.14.8.6cae7dd4xghlU7&id=586984490909&ns=1&abbucket=14#detail" 
                 target="_blank" 
                 class="card-image" 
-                style="background-image: url(assets/image/small/03-live-house.png);" 
+                style="background-image: url(assets/images/small/03-live-house.png);" 
                 data-image-full="assets/images/03-live-house.png">
                 <img class="lookbook__img" src="assets/images/03-live-house.png" alt="Live House">
               </a>
@@ -135,7 +137,7 @@
               <a href="https://item.taobao.com/item.htm?spm=2013.1.0.0.74436f98Mw5Rou&id=586986186136&scm=1007.12144.95220.42296_0&pvid=81e208cf-00b2-4fa6-8858-772e2dc9a8f9&utparam=%7B%22x_hestia_source%22%3A%2242296%22%2C%22x_object_type%22%3A%22item%22%2C%22x_mt%22%3A0%2C%22x_src%22%3A%2242296%22%2C%22x_pos%22%3A2%2C%22x_pvid%22%3A%2281e208cf-00b2-4fa6-8858-772e2dc9a8f9%22%2C%22x_object_id%22%3A586986186136%7D" 
                 target="_blank" 
                 class="card-image" 
-                style="background-image: url(assets/image/small/04-releasing-pill.png);" 
+                style="background-image: url(assets/images/small/04-releasing-pill.png);" 
                 data-image-full="assets/images/04-releasing-pill.png">
                 <img class="lookbook__img" src="assets/images/04-releasing-pill.png" alt="Releasing Pill">
               </a>
@@ -151,7 +153,7 @@
               <a href="https://item.taobao.com/item.htm?spm=a230r.1.14.45.6cae7dd4xghlU7&id=586986582653&ns=1&abbucket=14#detail" 
                 target="_blank" 
                 class="card-image" 
-                style="background-image: url(assets/image/small/06-CCTV.png);" 
+                style="background-image: url(assets/images/small/06-CCTV.png);" 
                 data-image-full="assets/images/06-CCTV.png">
                 <img class="lookbook__img" src="assets/images/06-CCTV.png" alt="CCTV">
               </a>
@@ -162,7 +164,7 @@
               <a href="https://item.taobao.com/item.htm?spm=2013.1.0.0.74436f98Mw5Rou&id=587140727854&scm=1007.12144.95220.42296_0&pvid=81e208cf-00b2-4fa6-8858-772e2dc9a8f9&utparam=%7B%22x_hestia_source%22%3A%2242296%22%2C%22x_object_type%22%3A%22item%22%2C%22x_mt%22%3A0%2C%22x_src%22%3A%2242296%22%2C%22x_pos%22%3A3%2C%22x_pvid%22%3A%2281e208cf-00b2-4fa6-8858-772e2dc9a8f9%22%2C%22x_object_id%22%3A587140727854%7D" 
                 target="_blank" 
                 class="card-image" 
-                style="background-image: url(assets/image/small/07-barbed-wire.png);" 
+                style="background-image: url(assets/images/small/07-barbed-wire.png);" 
                 data-image-full="assets/images/07-barbed-wire.png">
                 <img class="lookbook__img" src="assets/images/07-barbed-wire.png" alt="Barbed Wire">
               </a>
@@ -173,7 +175,7 @@
               <a href="https://item.taobao.com/item.htm?spm=a230r.1.14.39.6cae7dd4xghlU7&id=586852989085&ns=1&abbucket=14#detail" 
                 target="_blank" 
                 class="card-image" 
-                style="background-image: url(assets/image/small/08-astronaut-project.png);" 
+                style="background-image: url(assets/images/small/08-astronaut-project.png);" 
                 data-image-full="assets/images/08-astronaut-project.png">
                 <img class="lookbook__img" src="assets/images/08-astronaut-project.png" alt="Astronaut Project">
               </a>
@@ -184,7 +186,7 @@
               <a href="https://item.taobao.com/item.htm?spm=a230r.1.14.32.6cae7dd4xghlU7&id=586638760100&ns=1&abbucket=14#detail" 
                 target="_blank" 
                 class="card-image" 
-                style="background-image: url(assets/image/small/09-with-vibration.png);" 
+                style="background-image: url(assets/images/small/09-with-vibration.png);" 
                 data-image-full="assets/images/09-with-vibration.png">
                 <img class="lookbook__img" src="assets/images/09-with-vibration.png" alt="With Vibration">
               </a>
@@ -205,7 +207,7 @@
               <a href="https://item.taobao.com/item.htm?spm=2013.1.0.0.719910feLEQWnh&id=587147379263&scm=1007.12144.95220.42296_0&pvid=5edde01c-899d-476b-a07b-8b65cf9a4072&utparam=%7B%22x_hestia_source%22%3A%2242296%22%2C%22x_object_type%22%3A%22item%22%2C%22x_mt%22%3A0%2C%22x_src%22%3A%2242296%22%2C%22x_pos%22%3A3%2C%22x_pvid%22%3A%225edde01c-899d-476b-a07b-8b65cf9a4072%22%2C%22x_object_id%22%3A587147379263%7D" 
                 target="_blank" 
                 class="card-image" 
-                style="background-image: url(assets/image/small/12-rotating-letter.png);" 
+                style="background-image: url(assets/images/small/12-rotating-letter.png);" 
                 data-image-full="assets/images/12-rotating-letter.png">
                 <img class="lookbook__img" src="assets/images/12-rotating-letter.png" alt="Rotating Letter">
               </a>
@@ -216,7 +218,7 @@
               <a href="https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-21167927941.98.10cb50f3mAcUxf&id=586858621807" 
                 target="_blank" 
                 class="card-image" 
-                style="background-image: url(assets/image/small/13-melting-letter.png);" 
+                style="background-image: url(assets/images/small/13-melting-letter.png);" 
                 data-image-full="assets/images/13-melting-letter.png">
                 <img class="lookbook__img" src="assets/images/13-melting-letter.png" alt="Melting Letter">
               </a>
@@ -227,7 +229,7 @@
               <a href="https://item.taobao.com/item.htm?spm=2013.1.0.0.74436f98Mw5Rou&id=587147827792&scm=1007.12144.95220.42296_0&pvid=81e208cf-00b2-4fa6-8858-772e2dc9a8f9&utparam=%7B%22x_hestia_source%22%3A%2242296%22%2C%22x_object_type%22%3A%22item%22%2C%22x_mt%22%3A0%2C%22x_src%22%3A%2242296%22%2C%22x_pos%22%3A1%2C%22x_pvid%22%3A%2281e208cf-00b2-4fa6-8858-772e2dc9a8f9%22%2C%22x_object_id%22%3A587147827792%7D" 
                 target="_blank" 
                 class="card-image" 
-                style="background-image: url(assets/image/small/14-ie-browser.png);" 
+                style="background-image: url(assets/images/small/14-ie-browser.png);" 
                 data-image-full="assets/images/14-ie-browser.png">
                 <img class="lookbook__img" src="assets/images/14-ie-browser.png" alt="IE Browser">
               </a>
